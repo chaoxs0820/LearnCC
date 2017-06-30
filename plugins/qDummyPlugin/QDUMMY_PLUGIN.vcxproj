@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C1D3C2C3-CA08-4860-AA4E-7A1E1AD10360}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>QDUMMY_PLUGIN</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">QDUMMY_PLUGIN.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">QDUMMY_PLUGINd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">QDUMMY_PLUGIN.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">QDUMMY_PLUGIN</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">QDUMMY_PLUGIN.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">QDUMMY_PLUGIN</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">QDUMMY_PLUGIN.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">QDUMMY_PLUGIN</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CC_USE_AS_DLL;QCC_DB_USE_AS_DLL;QCC_IO_USE_AS_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="Debug";QDUMMY_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CC_USE_AS_DLL;QCC_DB_USE_AS_DLL;QCC_IO_USE_AS_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"Debug\";QDUMMY_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target QDUMMY_PLUGIN</Message>
+      <Command>setlocal
+cd "D:\Learn CCcode\CC_code\plugins\qDummyPlugin"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen "D:/Learn CCcode/CC_code/plugins/qDummyPlugin/CMakeFiles/QDUMMY_PLUGIN_automoc.dir/" Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\libs\CCFbo\Debug\CC_FBO_LIBd.lib;..\..\libs\qCC_io\Debug\QCC_IO_LIBd.lib;..\..\libs\qCC_glWindow\Debug\QCC_GL_LIBd.lib;..\..\libs\qCC_db\Debug\QCC_DB_LIBd.lib;..\..\libs\CCFbo\Debug\CC_FBO_LIBd.lib;..\..\CC\Debug\CC_CORE_LIBd.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Concurrentd.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5OpenGLd.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Widgetsd.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5OpenGLExtensionsd.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Guid.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Learn CCcode/CC_code/plugins/qDummyPlugin/Debug/QDUMMY_PLUGINd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Learn CCcode/CC_code/plugins/qDummyPlugin/Debug/QDUMMY_PLUGINd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;CC_USE_AS_DLL;QCC_DB_USE_AS_DLL;QCC_IO_USE_AS_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_NO_DEBUG;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="Release";QDUMMY_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;CC_USE_AS_DLL;QCC_DB_USE_AS_DLL;QCC_IO_USE_AS_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_NO_DEBUG;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"Release\";QDUMMY_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target QDUMMY_PLUGIN</Message>
+      <Command>setlocal
+cd "D:\Learn CCcode\CC_code\plugins\qDummyPlugin"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen "D:/Learn CCcode/CC_code/plugins/qDummyPlugin/CMakeFiles/QDUMMY_PLUGIN_automoc.dir/" Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\libs\CCFbo\Release\CC_FBO_LIB.lib;..\..\libs\qCC_io\Release\QCC_IO_LIB.lib;..\..\libs\qCC_glWindow\Release\QCC_GL_LIB.lib;..\..\libs\qCC_db\Release\QCC_DB_LIB.lib;..\..\libs\CCFbo\Release\CC_FBO_LIB.lib;..\..\CC\Release\CC_CORE_LIB.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Concurrent.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5OpenGL.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5OpenGLExtensions.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Learn CCcode/CC_code/plugins/qDummyPlugin/Release/QDUMMY_PLUGIN.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Learn CCcode/CC_code/plugins/qDummyPlugin/Release/QDUMMY_PLUGIN.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_USE_AS_DLL;QCC_DB_USE_AS_DLL;QCC_IO_USE_AS_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_NO_DEBUG;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="MinSizeRel";QDUMMY_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_USE_AS_DLL;QCC_DB_USE_AS_DLL;QCC_IO_USE_AS_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_NO_DEBUG;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"MinSizeRel\";QDUMMY_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target QDUMMY_PLUGIN</Message>
+      <Command>setlocal
+cd "D:\Learn CCcode\CC_code\plugins\qDummyPlugin"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen "D:/Learn CCcode/CC_code/plugins/qDummyPlugin/CMakeFiles/QDUMMY_PLUGIN_automoc.dir/" MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\libs\CCFbo\MinSizeRel\CC_FBO_LIB.lib;..\..\libs\qCC_io\MinSizeRel\QCC_IO_LIB.lib;..\..\libs\qCC_glWindow\MinSizeRel\QCC_GL_LIB.lib;..\..\libs\qCC_db\MinSizeRel\QCC_DB_LIB.lib;..\..\libs\CCFbo\MinSizeRel\CC_FBO_LIB.lib;..\..\CC\MinSizeRel\CC_CORE_LIB.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Concurrent.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5OpenGL.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5OpenGLExtensions.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Learn CCcode/CC_code/plugins/qDummyPlugin/MinSizeRel/QDUMMY_PLUGIN.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Learn CCcode/CC_code/plugins/qDummyPlugin/MinSizeRel/QDUMMY_PLUGIN.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_USE_AS_DLL;QCC_DB_USE_AS_DLL;QCC_IO_USE_AS_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_NO_DEBUG;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="RelWithDebInfo";QDUMMY_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_USE_AS_DLL;QCC_DB_USE_AS_DLL;QCC_IO_USE_AS_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_OPENGL_LIB;QT_CONCURRENT_LIB;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_NO_DEBUG;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";QDUMMY_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Learn CCcode\CC_code\plugins\qDummyPlugin;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin;C:\Qt\Qt5.7.1\5.7\msvc2015\include;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGL;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtWidgets;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtGui;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtCore;C:\Qt\Qt5.7.1\5.7\msvc2015\.\mkspecs\win32-msvc2015;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtConcurrent;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtPrintSupport;D:\Learn CCcode\CloudCompare-master\plugins;D:\Learn CCcode\CloudCompare-master\CC\include;D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include;D:\Learn CCcode\CloudCompare-master\libs\qCC_io;D:\Learn CCcode\CloudCompare-master\libs\qCC_db;D:\Learn CCcode\CloudCompare-master\libs\qCC_db\msvc;D:\Learn CCcode\CloudCompare-master\libs\qCC_glWindow;C:\Qt\Qt5.7.1\5.7\msvc2015\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target QDUMMY_PLUGIN</Message>
+      <Command>setlocal
+cd "D:\Learn CCcode\CC_code\plugins\qDummyPlugin"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen "D:/Learn CCcode/CC_code/plugins/qDummyPlugin/CMakeFiles/QDUMMY_PLUGIN_automoc.dir/" RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\libs\CCFbo\RelWithDebInfo\CC_FBO_LIB.lib;..\..\libs\qCC_io\RelWithDebInfo\QCC_IO_LIB.lib;..\..\libs\qCC_glWindow\RelWithDebInfo\QCC_GL_LIB.lib;..\..\libs\qCC_db\RelWithDebInfo\QCC_DB_LIB.lib;..\..\libs\CCFbo\RelWithDebInfo\CC_FBO_LIB.lib;..\..\CC\RelWithDebInfo\CC_CORE_LIB.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Concurrent.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5OpenGL.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Widgets.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5OpenGLExtensions.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Gui.lib;C:\Qt\Qt5.7.1\5.7\msvc2015\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Learn CCcode/CC_code/plugins/qDummyPlugin/RelWithDebInfo/QDUMMY_PLUGIN.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Learn CCcode/CC_code/plugins/qDummyPlugin/RelWithDebInfo/QDUMMY_PLUGIN.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Learn CCcode/CloudCompare-master" "-BD:/Learn CCcode/CC_code" --check-stamp-file "D:\Learn CCcode\CC_code\plugins\qDummyPlugin\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/CMakeLists.txt;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt;D:\Learn CCcode\CloudCompare-master\plugins\CMakePluginTpl.cmake;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Learn CCcode/CloudCompare-master" "-BD:/Learn CCcode/CC_code" --check-stamp-file "D:\Learn CCcode\CC_code\plugins\qDummyPlugin\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/CMakeLists.txt;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt;D:\Learn CCcode\CloudCompare-master\plugins\CMakePluginTpl.cmake;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Learn CCcode/CloudCompare-master" "-BD:/Learn CCcode/CC_code" --check-stamp-file "D:\Learn CCcode\CC_code\plugins\qDummyPlugin\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/CMakeLists.txt;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt;D:\Learn CCcode\CloudCompare-master\plugins\CMakePluginTpl.cmake;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Learn CCcode/CloudCompare-master" "-BD:/Learn CCcode/CC_code" --check-stamp-file "D:\Learn CCcode\CC_code\plugins\qDummyPlugin\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/CMakeLists.txt;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt;D:\Learn CCcode\CloudCompare-master\plugins\CMakePluginTpl.cmake;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_qDummyPlugin.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\Qt5.7.1\5.7\msvc2015\bin\rcc.exe --name qDummyPlugin --output "D:/Learn CCcode/CC_code/plugins/qDummyPlugin/qrc_qDummyPlugin.cpp" "D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/qDummyPlugin.qrc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/qDummyPlugin.qrc;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\icon.png;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\qrc_qDummyPlugin.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_qDummyPlugin.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\Qt5.7.1\5.7\msvc2015\bin\rcc.exe --name qDummyPlugin --output "D:/Learn CCcode/CC_code/plugins/qDummyPlugin/qrc_qDummyPlugin.cpp" "D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/qDummyPlugin.qrc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/qDummyPlugin.qrc;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\icon.png;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\qrc_qDummyPlugin.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_qDummyPlugin.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\Qt5.7.1\5.7\msvc2015\bin\rcc.exe --name qDummyPlugin --output "D:/Learn CCcode/CC_code/plugins/qDummyPlugin/qrc_qDummyPlugin.cpp" "D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/qDummyPlugin.qrc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/qDummyPlugin.qrc;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\icon.png;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\qrc_qDummyPlugin.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_qDummyPlugin.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\Qt5.7.1\5.7\msvc2015\bin\rcc.exe --name qDummyPlugin --output "D:/Learn CCcode/CC_code/plugins/qDummyPlugin/qrc_qDummyPlugin.cpp" "D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/qDummyPlugin.qrc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Learn CCcode/CloudCompare-master/plugins/qDummyPlugin/qDummyPlugin.qrc;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\icon.png;D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Learn CCcode\CC_code\plugins\qDummyPlugin\qrc_qDummyPlugin.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.h" />
+    <ClCompile Include="D:\Learn CCcode\CloudCompare-master\plugins\qDummyPlugin\qDummyPlugin.cpp"  />
+    <ClCompile Include="D:\Learn CCcode\CloudCompare-master\plugins\ccStdPluginInterface.cpp"  />
+    <ClCompile Include="D:\Learn CCcode\CC_code\plugins\qDummyPlugin\qrc_qDummyPlugin.cpp"  />
+    <ClCompile Include="D:\Learn CCcode\CC_code\plugins\qDummyPlugin\QDUMMY_PLUGIN_automoc.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Learn CCcode/CC_code/CC/CC_CORE_LIB.vcxproj">
+      <Project>EED54A4B-4821-48C0-B47F-F3F4EA55A23D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Learn CCcode/CC_code/libs/CCFbo/CC_FBO_LIB.vcxproj">
+      <Project>A3C27852-E67E-485A-8F2B-E406E7FFF81E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Learn CCcode/CC_code/libs/qCC_db/QCC_DB_LIB.vcxproj">
+      <Project>10FAF5B7-6959-40AC-AB44-EEFF9A3AA94E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Learn CCcode/CC_code/libs/qCC_glWindow/QCC_GL_LIB.vcxproj">
+      <Project>F96B79AA-2BF5-42E1-A783-598BEEE05F5A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Learn CCcode/CC_code/libs/qCC_io/QCC_IO_LIB.vcxproj">
+      <Project>434A5B21-52C4-47BE-AE82-4E2C4ACC2103</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Learn CCcode/CC_code/ZERO_CHECK.vcxproj">
+      <Project>E949BB15-1480-416F-B207-5CB2D99661C2</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

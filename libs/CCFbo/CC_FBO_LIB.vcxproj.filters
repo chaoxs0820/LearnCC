@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Learn CCcode\CloudCompare-master\libs\CCFbo\src\ccBilateralFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn CCcode\CloudCompare-master\libs\CCFbo\src\ccFrameBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn CCcode\CloudCompare-master\libs\CCFbo\src\ccShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Learn CCcode\CC_code\libs\CCFbo\CC_FBO_LIB_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include\ccBilateralFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include\ccFrameBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include\ccGlFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Learn CCcode\CloudCompare-master\libs\CCFbo\include\ccShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Learn CCcode\CloudCompare-master\libs\CCFbo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A43CA4F2-7B23-4E86-8CCE-D6555C7ED6EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CEB58F8D-5430-4799-AE61-AFF48D74C920}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

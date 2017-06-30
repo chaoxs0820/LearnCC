@@ -1,0 +1,50 @@
+# CMake generation dependency list for this directory.
+D:/Learn CCcode/CloudCompare-master/CC/CMakeLists.txt
+D:/Learn CCcode/CloudCompare-master/CMakePolicies.cmake
+D:/Learn CCcode/CloudCompare-master/CMakeExternalLibs.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5OpenGLExtensions/Qt5OpenGLExtensionsConfigVersion.cmake
+C:/Qt/Qt5.7.1/5.7/msvc2015/lib/cmake/Qt5OpenGLExtensions/Qt5OpenGLExtensionsConfig.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindOpenMP.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+D:/Learn CCcode/CloudCompare-master/CMakeInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/AutogenInfo.cmake.in
